@@ -1,0 +1,9 @@
+.background {
+    -fx-background-color:#1b1b1b;
+}
+
+.filepath {
+    -fx-font-size: 10pt;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}

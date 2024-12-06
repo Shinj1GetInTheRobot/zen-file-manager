@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.URL?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Button?>
 <?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zen.Controller">
-   <Label text="Hi!"/>
+<VBox styleClass="background" alignment="TOP_LEFT" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zen.Controller">
+   
+   <children>
+      <Label styleClass="filepath" text="C > Example > Directory"/>
+      <!-- <TableView fx:id="directoryTbv" items="${controller.model.products.availableProducts}">
+        <columns>
+            <TableColumn text="Name" prefWidth="199.0" sortable="false">
+                <cellValueFactory><PropertyValueFactory property="name"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Price" prefWidth="199.0" sortable="false">
+                <cellValueFactory><PropertyValueFactory property="price"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Stock" prefWidth="199.0" sortable="false">
+                <cellValueFactory><PropertyValueFactory property="stock"/></cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView> -->
+   </children>
+
+   <padding>
+      <Insets left="10.0" top="10.0"/>
+   </padding>
+
+   <stylesheets>
+      <URL value="@style.css"/>
+   </stylesheets>
 </VBox>
